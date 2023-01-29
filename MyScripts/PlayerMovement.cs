@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     
-    void Update()
+    void FixedUpdate()
     {
         if (StaticPlayer.lives > 0 && cameraPlayer.active)
         {
